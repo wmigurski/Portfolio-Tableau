@@ -18,3 +18,9 @@ I used 2 data sources, 11 files in total connecten in Tableau:
 
 ![tableau data](https://user-images.githubusercontent.com/129744216/233377213-80eb00d9-dd52-4d11-9b14-edd00ac8a802.png)
 
+I also created a calculated field with LOD expression to get proper results for Won Leads %:
+```
+{ FIXED [Origin],[First Contact Date]: COUNTD([Mql Id]) } / 
+{ FIXED [Origin],[First Contact Date]: COUNTD([Mql Id (Olist Marketing Qualified Leads Dataset.Csv)])}
+```
+
