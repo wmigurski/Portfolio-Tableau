@@ -5,9 +5,7 @@ LINK: https://public.tableau.com/app/profile/wojtek2078/viz/Portfolio-MarketingL
 
 
 Data sources: 
-
 https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist
-
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ## Description
